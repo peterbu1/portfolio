@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import ME2 from '../assets/peter2.jpg'
+import ME2 from '../assets/p.jpg'
 
 type Props = {}
 
