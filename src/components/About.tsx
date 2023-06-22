@@ -19,8 +19,8 @@ function About({ }: Props) {
 
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span>{" "} background</h4>
-        <p className="text-base">I&apos;m Peter. I currently attend Temple University studing Information Science &amp; Technology and am looking to graduate
-          this coming May! I&apos;m a detail-oriented, collaborative, and innovative student seeking for career opportunities in the tech industry with the
+        <p className="text-base">I am Peter. I currently attend Temple University studing Information Science &amp; Technology and am looking to graduate
+          this coming May! I am a detail-oriented, collaborative, and innovative student seeking for career opportunities in the tech industry with the
           drive to link the bridge between tech and reality. Looking for a dynamic organization to challenge and strengthen my passion of earning and analytical ability and to be
           part of a team to grow both personally and professionally.</p>
       </div>
