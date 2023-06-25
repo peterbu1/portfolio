@@ -27,11 +27,6 @@ function Header({ }: Props) {
 
                 {/*Social Icons*/}
                 <SocialIcon
-                    url="https://twitter.com/Peter03861427"
-                    fgColor="gray"
-                    bgColor="transparent"
-                />
-                <SocialIcon
                     url="https://github.com/peterbu1"
                     fgColor="gray"
                     bgColor="transparent"
