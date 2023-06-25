@@ -27,21 +27,21 @@ function Contact({ }: Props) {
       <div className='flex flex-col space-y-10'>
         <h4 className='text-4xl font-semibold text-center'>
            {" "}
-          <span className='decoration-[#f7ab0a]/50 underline'>Let&apos;s Connect.</span>
+          {/* <span className='decoration-[#005a7a]/50 underline'>Let&apos;s Connect.</span> */}
         </h4>
         <div className='space-y-5'>
           <div>
-            <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+            <PhoneIcon className='text-[#005a7a] h-7 w-7 animate-pulse' />
             <p className='text-2xl'>+2159202269</p>
           </div>
 
           <div>
-            <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+            <EnvelopeIcon className='text-[#005a7a] h-7 w-7 animate-pulse' />
             <p className='text-2xl'>peterbui.tech@gmail.com</p>
           </div>
 
           <div>
-            <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+            <MapPinIcon className='text-[#005a7a] h-7 w-7 animate-pulse' />
             <p className='text-2xl'>Philadelphia PA</p>
           </div>
         </div>
@@ -55,7 +55,7 @@ function Contact({ }: Props) {
           <input {...register('subject')} placeholder="Subject" className='contactInput' type='text' />
 
           <textarea {...register('message')} placeholder="Message" className='contactInput'></textarea>
-          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
+          <button className="bg-[#005a7a] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
 
         </form>
       </div>

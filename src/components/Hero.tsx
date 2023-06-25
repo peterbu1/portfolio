@@ -10,8 +10,9 @@ function Hero({ }: Props) {
 
   const [text, count] = useTypewriter({
     words: ['Hi, My Name is Peter Bui',
-      'Im an Information Science & Technology Major at Temple University',
-      'Aspiring Tech Bro'],
+      'Information Science & Technology Major',
+      'From Temple University',
+      'Aspiring Software Engineer'],
     loop: true,
     delaySpeed: 2000,
   });
@@ -23,11 +24,11 @@ function Hero({ }: Props) {
         <Image src={ME} alt="me" width={100} height={100} objectFit="cover" />
       </div>
       <div className="z-20">
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Aspiring Tech Bro </h2>
+        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Aspiring Software Engineer </h2>
 
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span>{text}</span>
-          <Cursor cursorColor='#F7AB0A' />
+          <Cursor cursorColor='#005a7a' />
         </h1>
 
         <div className='pt-5'>
