@@ -14,5 +14,30 @@
     focus:text-[#005a7a]/40 hover:border-[#005a7a]/40
   }
 
+  @media (min-width: 768px) {
+    .project-card {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, 1fr));
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+  .contactInput {
+    width: 100%;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+}
+
+  
   
 }
